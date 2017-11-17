@@ -1,0 +1,82 @@
+.main{
+  float:left;}
+.aside{
+    float:right;
+  }
+.header {
+  height: 126px;
+  font-size: 55px;
+  padding: 27px
+}
+.list li{
+  font-size: 30px;
+  list-style: none;
+}
+.first{
+  padding: 31px;
+  vertical-align: middle;
+  width:900px;
+}
+.col-9{
+  background-color: lightgray;
+}
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-image:url("https://www.xmple.com/wallpaper/white-grey-gradient-linear-1920x1080-c2-ffffff-808080-a-300-f-14.svg");
+  background-repeat:no-repeat;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.App h2 {
+  font-size: 2rem;
+  height: 84px;
+  padding: 23px;
+}
+body {
+  margin:0; /*gets rid of white space around body*/
+  height:200vh;
+  position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
+
+#sticky {
+  width:100%;
+  padding:20px;
+  padding-bottom:4px;
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  bottom:0;          /*to the bottom of the body*/
+  left:0;            /*and to the left of the body.*/
+
+  text-align:center; /*this will center the containers*/
+}
+.contact {
+  width: 100%;
+  background-color: dimgray;
+}
